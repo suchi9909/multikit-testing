@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <meta name="author" content="multikit">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/10.svg">
+    <link rel="shortcut icon" href="./" type="image/x-icon">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="landing-color">
+    <!-- Background image start -->
+    <div class="background-image">
+        <img src="../assets/images/landing/bg.png" class="img-fluid" alt="">
+    </div>
+    <!-- Background image end -->
+
+    <!-- header start -->
+    <header class="main-header">
+        <div class="header-left">
+            <a class="text-white" href="widgets.html">
+                <i class="ri-arrow-left-line"></i>
+            </a>
+            <a href="index.html" class="header-logo">
+                <img src="../assets/images/logo/1.svg" class="img-fluid" alt="">
+            </a>
+        </div>
+
+        <div class="header-right">
+            <div class="notification-box">
+                <a class="text-white" href="#!">
+                    <i class=" ri-notification-2-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Mobile Section Start -->
+    <div class="landing-mobile-section">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="ri-home-6-line"></i>
+                    <h5>Full Apps</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="elements.html">
+                    <i class="ri-file-copy-line"></i>
+                    <h5>Elements</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="screens.html">
+                    <i class="ri-list-check-2"></i>
+                    <h5>Screens</h5>
+                </a>
+            </li>
+
+            <li>
+                <a href="widgets.html">
+                    <i class="ri-stack-line"></i>
+                    <h5>Widgets</h5>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Section End -->
+
+    <!-- Full App Section Start -->
+    <section class="full-app-title-section full-app-title-section-2">
+        <div class="custom-container">
+            <div class="app-box">
+                <h4>Action Sheet</h4>
+                <p>it comes up from the bottom of the screen and displays actions a user can take.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Full App Section End -->
+
+    <!-- Action Sheet Button Start -->
+    <div class="action-sheet-button px-15 section-t-space-3">
+        <button class="btn btn-gray" data-bs-toggle="offcanvas" data-bs-target="#filter-button">Open Action
+            Sheet</button>
+    </div>
+    <!-- Action Sheet Button End -->
+
+    <!-- Sort Offcanvas Start -->
+    <div class="offcanvas filter-button offcanvas-bottom theme-bottom-offcanvas" tabindex="-1" id="filter-button">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sort by: </h5>
+        </div>
+        <div class="offcanvas-body">
+            <form class="filter-box-list">
+                <div class="filter-box">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="1" value="option1" checked>
+                    <label class="form-check-label" for="1">
+                        <i class="ri-thumb-up-line"></i>
+                        <span>Popularity</span>
+                    </label>
+                </div>
+
+                <div class="filter-box">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="02" value="option1">
+                    <label class="form-check-label" for="02">
+                        <svg>
+                            <use xlink:href="../assets/images/learning/low-high.svg#low"></use>
+                        </svg>
+                        <span>Price: Low to High</span>
+                    </label>
+                </div>
+
+                <div class="filter-box">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="03" value="option1">
+                    <label class="form-check-label" for="03">
+                        <svg>
+                            <use xlink:href="../assets/images/learning/high-low.svg#high"></use>
+                        </svg>
+                        <span>Price: High to Low</span>
+                    </label>
+                </div>
+
+                <div class="filter-box">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="04" value="option1">
+                    <label class="form-check-label" for="04">
+                        <i class="ri-star-line"></i>
+                        <span>User Ratings: Highest</span>
+                    </label>
+                </div>
+                <button class="btn btn-theme text-white apply-button" data-bs-dismiss="offcanvas">Apply</button>
+            </form>
+        </div>
+    </div>
+    <!-- Sort Offcanvas End -->
+
+    <!-- space box start -->
+    <div class="spacing-box"></div>
+    <!-- space box end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

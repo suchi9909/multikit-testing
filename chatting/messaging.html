@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/8.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="rubik-body theme-bg-color chatting-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/loader/chatting.gif" class="img-fluid loader" alt="">
+        <div class="loader-section chatting-color section-left"></div>
+        <div class="loader-section chatting-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Section Start -->
+    <header class="chatting-header prfile-header">
+        <div class="custom-container">
+            <div class="header-box">
+                <a href="index.html" class="arrow-box title-color">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <a href="user-profile.html" class="header-profile">
+                    <div class="profile-image">
+                        <img src="../assets/images/chatting/profile/1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="name-content">
+                        <h5>Michael Anderson</h5>
+                        <h6>+91 58784 58125</h6>
+                    </div>
+                </a>
+                <div class="calling-box">
+                    <a href="audio-calling.html">
+                        <i class="ri-phone-line"></i>
+                    </a>
+                    <a href="video-calling.html">
+                        <i class="ri-vidicon-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Messaging Box Section Start -->
+    <div class="message-box">
+        <div class="custom-container">
+            <div class="msger">
+                <div class="msger-chat">
+                    <div class="msg left-msg">
+                        <div class="msg-bubble">
+                            <div class="msg-info">
+                                <div class="msg-info-time">12:45</div>
+                            </div>
+
+                            <div class="msg-text">
+                                Hi, welcome to Multikit Chat! Go ahead and send me a message. 😄
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="msg right-msg">
+                        <div class="msg-bubble">
+                            <div class="msg-info">
+                                <div class="msg-info-time">12:46</div>
+                            </div>
+
+                            <div class="msg-text">You can change your name in JS section!</div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="msger-inputarea">
+                    <div class="position-relative p-0">
+                        <input type="text" class="msger-input" placeholder="Enter your message...">
+                        <button type="submit" class="msger-send-btn">
+                            <svg>
+                                <use xlink:href="../assets/svg/send.svg#send"></use>
+                            </svg>
+                        </button>
+                        <button class="btn emoji-button">
+                            <svg class="emoji-icon">
+                                <use xlink:href="../assets/svg/smile.svg#smile"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Messaging Box Section End -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- messaging chat js -->
+    <script src="../assets/js/messaging.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

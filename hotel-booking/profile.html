@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/7.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="hotel-booking-color">
+    <!-- Loader Start -->
+    <div class="min-loader-wrapper hotel-loader-wrapper">
+        <div class='hotel-booking'>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='door'></div>
+            <div class='hotel-sign'>
+                <span>H</span>
+                <span>O</span>
+                <span>T</span>
+                <span>E</span>
+                <span>L</span>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- header Section Start -->
+    <header class="header-style-4 py-0">
+        <div class="top-header px-15 position-relative">
+            <div class="left-header">
+                <a href="settings.html">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <ul class="name-date">
+                    <li>Personal Profile</li>
+                </ul>
+            </div>
+
+            <a href="settings.html" class="right-header">
+                <h5>Save</h5>
+            </a>
+        </div>
+    </header>
+    <!-- header Section End -->
+
+    <!-- Edit Profile Start -->
+    <section class="section-t-space edit-profile-section">
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="edit-image">
+                        <div class="profile-pic">
+                            <input id="file" type="file" onchange="loadFile(event)">
+                            <img src="../assets/images/learning/menu-profile.jpg" id="output" alt="">
+                            <div class="edit">
+                                <i class="ri-pencil-line"></i>
+                                <span>Edit</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Edit Profile End -->
+
+    <!-- Personal Detail Start -->
+    <section>
+        <div class="custom-container">
+            <div class="title-2">
+                <h5>General Details</h5>
+            </div>
+
+            <form class="form-style-5">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="name" placeholder="Full Name">
+                            <label for="name">Full Name</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="date" class="form-control" id="dob">
+                            <label for="dob">Date Of Birth</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <select class="form-select" id="gender">
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Other</option>
+                            </select>
+                            <label for="gender">Gender</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <select class="form-select" id="status">
+                                <option value="1">Single</option>
+                                <option value="2">Marriage</option>
+                            </select>
+                            <label for="status">Gender</label>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="date" class="form-control" id="anniversary">
+                            <label for="anniversary">Anniversary Date</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="nationality" placeholder="Nationality"
+                                data-bs-toggle="offcanvas" data-bs-target="#nationalityModal" value="India">
+                            <label for="nationality">Nationality</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="home" placeholder="Where do you live?"
+                                data-bs-toggle="offcanvas" data-bs-target="#homeModal" value="India">
+                            <label for="home">Where do you live?</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Personal Detail End -->
+
+    <!-- Divider Setting Start -->
+    <section class="section-t-space section-b-space">
+        <div class="divider"></div>
+    </section>
+    <!-- Divider Setting End -->
+
+    <!-- Contact Details Start -->
+    <section>
+        <div class=" custom-container">
+            <div class="title-2">
+                <h5>Contact Details</h5>
+            </div>
+
+            <form class="form-style-5">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="passport" placeholder="Passport No.">
+                            <label for="passport">Passport No.</label>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="number" placeholder="Expiry">
+                            <label for="number">Expiry</label>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Details End -->
+
+    <div class="spacing-box"></div>
+
+    <!-- Nationality Offcanvas Start -->
+    <div class="offcanvas offcanvas-bottom nationality-offcanvas h-100" tabindex="-1" id="nationalityModal">
+        <div class="offcanvas-header d-block">
+            <form class="form-style-5 search-country">
+                <i data-bs-dismiss="offcanvas" class="ri-arrow-left-line"></i>
+                <div class="form-floating">
+                    <input type="search" class="form-control" id="countryName" placeholder="Country Name or Code">
+                    <label for="countryName">Country Name or Code</label>
+                </div>
+            </form>
+        </div>
+        <div class="offcanvas-body">
+            <div class="title-2">
+                <h5>Top Countries</h5>
+            </div>
+
+            <ul class="country-list mb-4">
+                <li>
+                    <a href="javascript:void(0)">India</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">United States</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">United Arab Emirates</a>
+                </li>
+            </ul>
+
+            <div class="title-2">
+                <h5>Other Countryes</h5>
+            </div>
+
+            <ul class="country-list">
+                <li>
+                    <a href="javascript:void(0)">Afghanistan</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Belize</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Bolivia</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Brazil</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">British Indian Ocean Territory</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Bulgaria</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Comoros</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Congo</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Ecuador</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">French Guiana</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">France</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Gibraltar</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Guinea</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Hong Kong</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Hungary</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Iraq</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Kenya</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Lebanon</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Nationality Offcanvas End -->
+
+    <!-- Nationality Offcanvas Start -->
+    <div class="offcanvas offcanvas-bottom nationality-offcanvas h-100" tabindex="-1" id="homeModal">
+        <div class="offcanvas-header d-block">
+            <form class="form-style-5 search-country">
+                <a href="javascript:void(0)">
+                    <i data-bs-dismiss="offcanvas" class="ri-arrow-left-line"></i>
+                </a>
+                <div class="form-floating">
+                    <input type="search" class="form-control" id="cityName" placeholder="City Name">
+                    <label for="cityName">City Name</label>
+                </div>
+            </form>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <div class="location-content">
+                <div class="location-icon">
+                    <i class="ri-map-pin-line"></i>
+                </div>
+                <h6>Adding your home location will help us provide a better experience</h6>
+            </div>
+            <div class="title-2">
+                <h5 class="d-flex align-items-center"><i class="ri-focus-3-line me-1"></i> Use correct location</h5>
+            </div>
+
+            <ul class="country-list mb-4">
+                <li>
+                    <a href="javascript:void(0)">Using GPS</a>
+                </li>
+            </ul>
+
+            <div class="title-2">
+                <h5 class="d-flex align-items-center"><i class="ri-star-fill me-1"></i> Popular cities</h5>
+            </div>
+
+            <ul class="country-list">
+                <li>
+                    <a href="javascript:void(0)">Delhi</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Gurgaon</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Noida</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Bangalore</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Mumbai</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Hyderbad</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Kolkata</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Pune</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">Chennai</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Home Offcanvas End -->
+
+    <!-- Mobile Menu Section Start -->
+    <div class="mobile-style-4">
+        <ul>
+            <li>
+                <a href="index.html" class="mobile-box">
+                    <i class="ri-home-5-line"></i>
+                    <h6 class="title-color">Home</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="search.html" class="mobile-box">
+                    <i class="ri-search-line"></i>
+                    <h6 class="title-color">Search</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="category.html" class="mobile-box">
+                    <i class="ri-article-line"></i>
+                    <h6 class="title-color">Bookings</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="wishlist.html" class="mobile-box">
+                    <i class="ri-heart-3-line"></i>
+                    <h6 class="title-color">Wishlist</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html" class="mobile-box">
+                    <i class="ri-user-3-line"></i>
+                    <h6 class="title-color">profile</h6>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Menu Section End -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- image change js -->
+    <script src="../assets/js/image-change.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/2.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="lato-body food-color food-auth-bg">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/favicon/2.svg" class="img-fluid loader" alt="">
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Section Start -->
+    <header class="header-style-3 header-bg">
+        <div class="custom-container">
+            <div class="header-box-2">
+                <a href="index.html" class="header-icon">
+                    <i class="ri-arrow-left-line"></i>
+                </a>
+
+                <div class="header-title">
+                    <h3>Address</h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Address List Section Start -->
+    <section class="section-t-sm-space address-section">
+        <div class="custom-container">
+            <div class="address-list-box">
+                <ul class="address-list">
+                    <li>
+                        <div class="address-box">
+                            <div class="address-header">
+                                <div class="address-icon">
+                                    <i class="ri-home-6-line"></i>
+                                </div>
+
+                                <div class="address-name">
+                                    <h5>Home</h5>
+                                    <p>2 Sand Hill Manor Drive, Marriottsville, md, 21104 United States, Phone: +1
+                                        5454512315</p>
+                                </div>
+                            </div>
+
+                            <div class="address-footer">
+                                <div class="button-group">
+                                    <button data-bs-toggle="offcanvas" data-bs-target="#editOffcanvas"
+                                        class="btn edit-button">Edit</button>
+                                    <button data-bs-toggle="offcanvas" data-bs-target="#deleteOffcanvas"
+                                        class="btn delete-button">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="address-box">
+                            <div class="address-header">
+                                <div class="address-icon">
+                                    <i class="ri-building-line"></i>
+                                </div>
+
+                                <div class="address-name">
+                                    <h5>Office</h5>
+                                    <p>2 Sand Hill Manor Drive, Marriottsville, d, 21104 United States Phone: +1
+                                        5454512315</p>
+                                </div>
+                            </div>
+
+                            <div class="address-footer">
+                                <div class="button-group">
+                                    <button data-bs-toggle="offcanvas" data-bs-target="#editOffcanvas"
+                                        class="btn edit-button">Edit</button>
+                                    <button data-bs-toggle="offcanvas" data-bs-target="#deleteOffcanvas"
+                                        class="btn delete-button">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Address List Section End -->
+
+    <!-- Divider Section Start -->
+    <div class="bottom-space"></div>
+    <!-- Divider Section End -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-light">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Edit Offcanvas Start -->
+    <div class="offcanvas edit-offcanvas offcanvas-bottom h-auto" tabindex="-1" id="editOffcanvas">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title w-75">Edit Address</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <form class="row g-3 form-style-4">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-12">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-8">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-4">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </form>
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="btn btn-food-gray" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="btn btn-food food-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- Edit Offcanvas End -->
+
+    <!-- Delete Offcanvas Start -->
+    <div class="offcanvas offcanvas-bottom delete-modal-3 h-auto" tabindex="-1" id="deleteOffcanvas">
+        <div class="offcanvas-header pb-0">
+            <h3 class="offcanvas-title w-75">Do you really want to delete address?</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <button class="btn btn-food" data-bs-dismiss="offcanvas">No</button>
+                <button class="btn btn-food food-gray" data-bs-dismiss="offcanvas">Yes</button>
+            </div>
+        </div>
+    </div>
+    <!-- Delete Offcanvas End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

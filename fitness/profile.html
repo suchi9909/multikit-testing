@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../assets/images/favicon/5.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="fitness-color nunito-body">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/favicon/5.svg" class="img-fluid loader" alt="">
+        <div class="loader-section fitness-color section-left"></div>
+        <div class="loader-section fitness-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Mobile Section Start -->
+    <div class="mobile-style-10">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <svg>
+                        <use xlink:href="../assets/images/fitness/mobile-menu-icon.svg#home"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="listing.html">
+                    <svg>
+                        <use xlink:href="../assets/images/fitness/mobile-menu-icon.svg#gym"></use>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <a href="reports.html">
+                    <svg>
+                        <use xlink:href="../assets/images/fitness/mobile-menu-icon.svg#reports"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="active">
+                <a href="profile.html">
+                    <svg>
+                        <use xlink:href="../assets/images/fitness/mobile-menu-icon.svg#user"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Section End -->
+
+    <!-- Profile Section Start -->
+    <section class="fitness-profile-section">
+        <div class="custom-container">
+            <div class="fitness-profile-box">
+                <div class="profile-image">
+                    <img src="../assets/images/fitness/dp.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="profile-name">
+                    <h4>Paige Turner</h4>
+                    <h5>paigeturner@gmail.com</h5>
+                    <a href="#!" class="edit-profile-btn">Edit Profile</a>
+                </div>
+            </div>
+
+            <ul class="fitness-box-list">
+                <li>
+                    <a href="#genderOffcanvas" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-men-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Gender</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#matrixOffcanvas" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-ruler-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Matrix & Imperial Units</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#restartOffcanvas" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-restart-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Restart Progress</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#soundOffcanvas" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-volume-down-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Sound Option</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#shareCourse" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-share-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Share with friends</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#rateUs" data-bs-toggle="offcanvas" class="fitness-menu-box">
+                        <div class="fitness-menu-icon">
+                            <i class="ri-star-line"></i>
+                        </div>
+                        <div class="fitness-menu-name">
+                            <h5>Rate us</h5>
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="sign-in.html" class="fitness-btn gradient-btn mt-4">Log out</a>
+        </div>
+    </section>
+    <!-- Profile Section End -->
+
+    <!-- bottom panel space -->
+    <div class="bottom-space"></div>
+    <!-- bottom panel space -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- gender offcanvas -->
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="genderOffcanvas">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">Select Gender</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body language-section">
+            <div class="language-setting-list">
+                <ul class="setting-list selectionUI p-0">
+                    <li class="active">
+                        <a href="javascript:void(0)">
+                            <h4 class="content-color">Female</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4 class="content-color">Male</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4 class="content-color">Other</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="fitness-btn btn-outline" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="fitness-btn gradient-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- gender offcanvas -->
+
+    <!-- materix offcanvas -->
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="matrixOffcanvas">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">Add matrix</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <form>
+                <div class="form-group mb-4">
+                    <label class="form-label">Weight</label>
+                    <input type="number" class="form-control" placeholder="kg">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Height</label>
+                    <input type="number" class="form-control" placeholder="cm">
+                </div>
+            </form>
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="fitness-btn btn-outline" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="fitness-btn gradient-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- materix offcanvas -->
+
+    <!-- restart offcanvas -->
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="restartOffcanvas">
+        <div class="offcanvas-header pb-0">
+            <h3 class="offcanvas-title w-75">Do you really want to restart progress?</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="fitness-btn btn-outline" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="fitness-btn gradient-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- restart offcanvas -->
+
+    <!-- sound offcanvss -->
+    <!-- gender offcanvas -->
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="soundOffcanvas">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">Sound notification</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body language-section">
+            <div class="language-setting-list">
+                <ul class="setting-list p-0">
+                    <li class="active">
+                        <a href="javascript:void(0)">
+                            <h4 class="content-color">Yes</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4 class="content-color">No</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="fitness-btn btn-outline" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="fitness-btn gradient-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- gender offcanvas -->
+
+    <!-- share product offcanvas start -->
+    <div class="offcanvas share-modal theme-bottom-offcanvas offcanvas-bottom" tabindex="-1" id="shareCourse">
+        <div class="offcanvas-header">
+            <h5>Share the product</h5>
+        </div>
+        <div class="offcanvas-body">
+            <div class="product-detail-box">
+                <div class="share-detail">
+                    <div class="share-title">
+                        <p class="text-content">Share our page with the world, increase
+                            your page exposure with the world.</p>
+                    </div>
+
+                    <div class="copy-link">
+                        <ul class="social-media-share">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" class="fb">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <h6>Facebook</h6>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank" class="twitter">
+                                    <i class="ri-twitter-fill"></i>
+                                </a>
+                                <h6>Twitter</h6>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/" target="_blank" class="google">
+                                    <i class="ri-google-fill"></i>
+                                </a>
+                                <h6>Google</h6>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/" target="_blank" class="link">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                                <h6>Linkedin</h6>
+                            </li>
+                            <li>
+                                <a href="https://mail.google.com/mail/" target="_blank" class="mail">
+                                    <i class="ri-mail-line"></i>
+                                </a>
+                                <h6>Mail</h6>
+                            </li>
+                            <li>
+                                <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">
+                                    <i class="ri-whatsapp-line"></i>
+                                </a>
+                                <h6>Whatsapp</h6>
+                            </li>
+                            <li>
+                                <a href="https://in.pinterest.com/" target="_blank" class="pint">
+                                    <i class="ri-pinterest-fill"></i>
+                                </a>
+                                <h6>Pinterest</h6>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="more">
+                                    <i class="ri-more-fill"></i>
+                                </a>
+                                <h6>More</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- share product offcanvas end -->
+
+    <!-- materix offcanvas -->
+    <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="rateUs">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title">Rate Us</h3>
+            <button type="button" class="btn-close p-0 m-0" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body pt-0">
+            <div class="hotel-type-section">
+
+                <ul class="d-flex align-items-center gap-2 rating-sec">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-star-fill"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-star-fill"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-star-fill"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-star-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="ri-star-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center mt-4 gap-3">
+                <a href="#" class="fitness-btn btn-outline" data-bs-dismiss="offcanvas">Cancel</a>
+                <a href="#!" class="fitness-btn gradient-btn">Save</a>
+            </div>
+        </div>
+    </div>
+    <!-- materix offcanvas -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- language select js -->
+    <script src="../assets/js/active-selection.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

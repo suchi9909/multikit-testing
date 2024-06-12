@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/7.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="hotel-booking-color">
+    <!-- Loader Start -->
+    <div class="min-loader-wrapper hotel-loader-wrapper">
+        <div class='hotel-booking'>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='window'></div>
+            <div class='door'></div>
+            <div class='hotel-sign'>
+                <span>H</span>
+                <span>O</span>
+                <span>T</span>
+                <span>E</span>
+                <span>L</span>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- header Section Start -->
+    <header class="header-style-4 py-0">
+        <div class="top-header px-15 position-relative">
+            <div class="left-header">
+                <a href="settings.html">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <ul class="name-date">
+                    <li>Booking History</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header Section End -->
+
+    <!-- Mobile Menu Section Start -->
+    <div class="mobile-style-4">
+        <ul>
+            <li>
+                <a href="index.html" class="mobile-box">
+                    <i class="ri-home-5-line"></i>
+                    <h6 class="title-color">Home</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="search.html" class="mobile-box">
+                    <i class="ri-search-line"></i>
+                    <h6 class="title-color">Search</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="category.html" class="mobile-box">
+                    <i class="ri-article-line"></i>
+                    <h6 class="title-color">Bookings</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="wishlist.html" class="mobile-box">
+                    <i class="ri-heart-3-line"></i>
+                    <h6 class="title-color">Wishlist</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html" class="mobile-box">
+                    <i class="ri-user-3-line"></i>
+                    <h6 class="title-color">profile</h6>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Menu Section End -->
+
+    <!-- Hotel Category Tab Start -->
+    <section class="section-t-space">
+        <ul class="nav nav-pills mb-3 tab-style-3 px-15" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-hotel-tab" data-bs-toggle="pill" data-bs-target="#pills-hotel"
+                    type="button" role="tab">Hotels</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-apprt-tab" data-bs-toggle="pill" data-bs-target="#pills-apprt"
+                    type="button" role="tab">Apartments</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-motel-tab" data-bs-toggle="pill" data-bs-target="#pills-motel"
+                    type="button" role="tab">Motels</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-villas-tab" data-bs-toggle="pill" data-bs-target="#pills-villas"
+                    type="button" role="tab">Villas</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-glamping-tab" data-bs-toggle="pill" data-bs-target="#pills-glamping"
+                    type="button" role="tab">Glamping</button>
+            </li>
+        </ul>
+    </section>
+    <!-- Hotel Category Tab End -->
+
+    <!-- Hotel history list start -->
+    <section>
+        <div class="custom-container">
+            <div class="tab-content hotel-history-tab" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-hotel" role="tabpanel" tabindex="0">
+                    <ul class="hotel-history-list">
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-apprt" role="tabpanel" tabindex="0">
+                    <ul class="hotel-history-list">
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-motel" role="tabpanel" tabindex="0">
+                    <ul class="hotel-history-list">
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-villas" role="tabpanel" tabindex="0">
+                    <ul class="hotel-history-list">
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-pane fade" id="pills-glamping" role="tabpanel" tabindex="0">
+                    <ul class="hotel-history-list">
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/1.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Emerald Bay Inn</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/2.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Hospitable Hotel</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="hotel-history-box">
+                                <a href="hotel-detail.html" class="hotel-image">
+                                    <img src="../assets/images/hotel-booking/place/3.jpg" class="img-fluid" alt="">
+                                </a>
+                                <div class="hotel-details">
+                                    <a href="hotel-detail.html">
+                                        <h5>Alaska Island Resort</h5>
+                                    </a>
+                                    <h6><i class="ri-map-pin-line"></i> 8054 Sulphur Springs St.</h6>
+                                    <div class="rating rating-2">
+                                        <i class="ri-star-fill"></i>
+                                        <h6 class="m-0">4.5 <span>(150 ratings)</span></h6>
+                                    </div>
+                                    <a href="hotel-detail.html" class="btn price-button">$50<span>/night</span></a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hotel history list end -->
+
+    <!-- space box start -->
+    <div class="section-t-space-3 section-b-space-3">
+        <div class="divider"></div>
+    </div>
+    <!-- space box end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

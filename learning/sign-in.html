@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/9.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="inter-body learning-color">
+
+    <!-- Log In Form Start -->
+    <section class="learning-auth">
+        <div class="learning-header px-15">
+            <div class="home-contain">
+                <h2>Login to Multikit</h2>
+                <h5>Enter your credentials to access your account.</h5>
+            </div>
+        </div>
+        <div class="custom-container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="form-style-1 mt-35">
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="Enter username" id="email">
+                        </div>
+                        <div>
+                            <label for="pass" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="pass" placeholder="Password">
+                        </div>
+                        <a class="forgot-password" href="forgot-password.html">Forgot password?</a>
+                        <a href="index.html" class="btn btn-gradient mt-4">Sign in</a>
+                        <a href="sign-up.html" class="create-new">If you are new, Create Now</a>
+                        <div class="continue-media">
+                            <span>Or Continue with</span>
+                        </div>
+                        <div class="social-style-1">
+                            <a target="_blank" class="btn"
+                                href="https://accounts.google.com/signin/v2/challenge/pwd?rart=ANgoxcdbbNxH1nYXChBQ7n_DhSet9sRm1XXzUFTdrodQQJThJv3oPCktvjFuZq-YDK8WsXHW_gXYeU7G-XB1iBPG0qMJAeBgcA&TL=ADFpJfNO0RX76w3_dSTgZpAaaAo5b4pVS_QbxZE9ZcTWHKvMhtzT8sU5qddOsm_4&flowName=GlifWebSignIn&cid=1&flowEntry=ServiceLogin">
+                                <img src="../assets/images/learning/social/google.svg" alt="">
+                                <span>Google</span>
+                            </a>
+                            <a href="https://appleid.apple.com/" class="btn" target="_blank">
+                                <img src="../assets/images/learning/social/apple.svg" alt="">
+                                <span>Apple</span>
+                            </a>
+                            <a href="https://www.facebook.com/login/" class="btn" target="_blank">
+                                <img src="../assets/images/learning/social/fb.svg" alt="">
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Log In Form End -->
+
+    <!-- space box start -->
+    <div class="spacing-box"></div>
+    <!-- space box end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

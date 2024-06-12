@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/8.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- swiper link -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/swiper/swiper-bundle.min.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="rubik-body theme-bg-color chatting-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/loader/chatting.gif" class="img-fluid loader" alt="">
+        <div class="loader-section chatting-color section-left"></div>
+        <div class="loader-section chatting-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Section Start -->
+    <header class="chatting-header">
+        <div class="custom-container">
+            <div class="header-box">
+                <a href="setting.html" class="arrow-box">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <a href="index.html" class="left-header">
+                    <img src="../assets/images/logo/2.svg" class="img-fluid w-100" alt="">
+                </a>
+                <div class="right-header">
+                    <button class="search-button btn">
+                        <i class="ri-search-line"></i>
+                    </button>
+                    <div class="dropdown edit-option">
+                        <button class="btn dropdown-button" type="button" data-bs-toggle="dropdown">
+                            <i class="ri-more-2-line"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item d-flex gap-2" href="invite-friend.html">
+                                    <i class="ri-share-line"></i>
+                                    <span>Invite Friend</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item d-flex gap-2" href="chat-history.html">
+                                    <i class="ri-history-line"></i>
+                                    <span>Chat history</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="form-control" placeholder="Search here..">
+                    <i class="ri-close-line close-search"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Chatting Box Section Start -->
+    <section class="chatting-section new-chat-section">
+        <div class="custom-container">
+            <div class="chatting-title">
+                <h4>Invite Friends</h4>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="new-chat-list">
+                        <li>
+                            <a data-bs-toggle="offcanvas" href="#shareCourse">
+                                <div class="new-chat">
+                                    <div class="new-chat-icon">
+                                        <i class="ri-share-line"></i>
+                                    </div>
+                                    <div class="new-chat-name">
+                                        <h5>Share a link</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="chatting-title mt-4">
+                <h4>Close Friends</h4>
+            </div>
+            <ul class="new-chat-list">
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Pippa Bella</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Michael Anderson</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Claire Baker</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/4.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Ella Bella</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/5.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Diane Bella</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/6.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Robert Ball</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Sam Black</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Luke Avery</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="offcanvas" href="#shareCourse" class="new-chat-box">
+                        <div class="chatting-image">
+                            <img src="../assets/images/chatting/profile/3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="chatting-content">
+                            <div class="chatting-name">
+                                <h5>Henry Bevins</h5>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Chatting Box Section End -->
+
+    <!-- share product offcanvas start -->
+    <div class="offcanvas share-modal theme-bottom-offcanvas offcanvas-bottom" tabindex="-1" id="shareCourse">
+        <div class="offcanvas-header">
+            <h5>Share the product</h5>
+        </div>
+        <div class="offcanvas-body">
+            <div class="product-detail-box">
+                <div class="share-detail">
+                    <div class="share-title">
+                        <p class="text-content">Share our page with the world, increase
+                            your page exposure with the world.</p>
+                    </div>
+
+                    <div class="copy-link">
+                        <ul class="social-media-share">
+                            <li>
+                                <a href="https://www.facebook.com/" target="_blank" class="fb">
+                                    <i class="ri-facebook-fill"></i>
+                                </a>
+                                <h6>Facebook</h6>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/" target="_blank" class="twitter">
+                                    <i class="ri-twitter-fill"></i>
+                                </a>
+                                <h6>Twitter</h6>
+                            </li>
+                            <li>
+                                <a href="https://www.google.com/" target="_blank" class="google">
+                                    <i class="ri-google-fill"></i>
+                                </a>
+                                <h6>Google</h6>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/" target="_blank" class="link">
+                                    <i class="ri-linkedin-fill"></i>
+                                </a>
+                                <h6>Linkedin</h6>
+                            </li>
+                            <li>
+                                <a href="https://mail.google.com/mail/" target="_blank" class="mail">
+                                    <i class="ri-mail-line"></i>
+                                </a>
+                                <h6>Mail</h6>
+                            </li>
+                            <li>
+                                <a href="https://web.whatsapp.com/" target="_blank" class="whatsapp">
+                                    <i class="ri-whatsapp-line"></i>
+                                </a>
+                                <h6>Whatsapp</h6>
+                            </li>
+                            <li>
+                                <a href="https://in.pinterest.com/" target="_blank" class="pint">
+                                    <i class="ri-pinterest-fill"></i>
+                                </a>
+                                <h6>Pinterest</h6>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="more">
+                                    <i class="ri-more-fill"></i>
+                                </a>
+                                <h6>More</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- share product offcanvas end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- swiper js -->
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/custom_swiper.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Search Open-Close js -->
+    <script src="../assets/js/search-open-close.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

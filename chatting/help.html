@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/8.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="rubik-body theme-bg-color chatting-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/loader/chatting.gif" class="img-fluid loader" alt="">
+        <div class="loader-section chatting-color section-left"></div>
+        <div class="loader-section chatting-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Section Start -->
+    <header class="chatting-header">
+        <div class="custom-container">
+            <div class="header-box">
+                <a href="setting.html" class="arrow-box title-color">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <a href="index.html" class="left-header">
+                    <img src="../assets/images/logo/2.svg" class="img-fluid w-100" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Chatting Box Section Start -->
+    <section class="help-section pb-0">
+        <div class="custom-container">
+            <div class="title title-2">
+                <h4>Help</h4>
+            </div>
+            <div class="accordion accordion-style" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button fw-normal" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne">
+                            How secure is this app?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body p-0">
+                            Chatting apps vary in terms of security measures. Many popular chatting apps provide
+                            end-to-end encryption, which ensures that only the sender and receiver can read the
+                            messages. However, it's important to research and choose a chatting app with a strong focus
+                            on privacy and security if it's a concern for you.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed fw-normal" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo">
+                            Is this app free to use?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body p-0">
+                            it is for free, but some may offer additional premium features for a fee. Additionally, data
+                            charges may apply based on your internet connection and mobile plan.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed fw-normal" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree">
+                            Can I use a without an internet connection?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body p-0">
+                            Chatting apps typically require an internet connection, either through mobile data or Wi-Fi,
+                            to send and receive messages. However, some apps offer offline messaging, where the messages
+                            are sent once a connection is restored.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chatting Box Section End -->
+
+    <!-- theme modal start -->
+    <div class="modal fade theme-color-modal theme-modal" id="back-up">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Back up to Google Drive</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="delete-list">
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="naver" checked>
+                                <label class="form-check-label" for="naver">Never</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box">
+                                <input class="form-check-input" type="radio" name="theme" id="only">
+                                <label class="form-check-label" for="only">Only when i tap "Back up"</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="daily">
+                                <label class="form-check-label" for="daily">Daily</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="week">
+                                <label class="form-check-label" for="week">Weekly</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="month">
+                                <label class="form-check-label" for="month">Monthly</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- theme modal end -->
+
+    <!-- Archive modal start -->
+    <div class="modal fade theme-modal" id="archive">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Archive Box</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All your messages will be here.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Okay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Archive modal end -->
+
+    <!-- clear modal start -->
+    <div class="modal fade theme-modal" id="clear">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Clear all chats</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Are you sure to clear all your chats</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">No</button>
+                    <button class="btn btn-theme btn-light" data-bs-target="#confirm"
+                        data-bs-toggle="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade theme-modal delete-modal-2" id="confirm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Done</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All messages are deleted.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clear modal end -->
+
+    <!-- clear modal start -->
+    <div class="modal fade theme-modal" id="delete">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Clear all chats</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Do you want to clear all chats?</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">No</button>
+                    <button class="btn btn-theme btn-light" data-bs-target="#confirm1"
+                        data-bs-toggle="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade theme-modal delete-modal-2" id="confirm1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Done</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All messages are deleted.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clear modal end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

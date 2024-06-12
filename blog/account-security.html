@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <meta name="author" content="multikit">
+    <link rel="icon" href="../assets/images/favicon/2.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="blog-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/loader/blog.gif" class="img-fluid loader" alt="">
+        <div class="loader-section blog-color section-left"></div>
+        <div class="loader-section blog-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- header Start -->
+    <header class="header-style-6">
+        <div class="left-header">
+            <a href="index.html">
+                <img src="../assets/images/logo/7.svg" class="img-fluid" alt="">
+            </a>
+        </div>
+
+        <div class="right-header">
+            <a href="profile.html" class="profile-image profile-image-2">
+                <img src="../assets/images/grocery/dp.jpg" class="img-fluid" alt="">
+            </a>
+        </div>
+    </header>
+    <!-- header End -->
+
+    <!-- Mobile Section Start -->
+    <div class="mobile-style-8">
+        <ul>
+            <li>
+                <a href="index.html">
+                    <i class="ri-home-6-line"></i>
+                    <h6>Home</h6>
+                </a>
+            </li>
+            <li>
+                <a href="search.html">
+                    <i class="ri-search-line"></i>
+                    <h6>Search</h6>
+                </a>
+            </li>
+            <li>
+                <a href="add-post.html">
+                    <i class="ri-add-circle-line"></i>
+                    <h6>Add Post</h6>
+                </a>
+            </li>
+            <li>
+                <a href="notification.html">
+                    <i class="ri-notification-4-line"></i>
+                    <h6>Notification</h6>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html">
+                    <i class="ri-user-3-line"></i>
+                    <h6>Profile</h6>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Section End -->
+
+    <!-- Account Security Section Start -->
+    <section class="account-security-section">
+        <div class="custom-container">
+            <form class="account-email-box form-style-9">
+                <div class="form-box">
+                    <label for="email" class="form-label fw-semibold">Email :</label>
+                    <div class="email-box">
+                        <input type="email" class="form-control" value="test@gmail.com" id="email">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Account Security Section End -->
+
+    <!-- Divider Setting Start -->
+    <section class="section-t-space section-b-space">
+        <div class="divider"></div>
+    </section>
+    <!-- Divider Setting End -->
+
+    <!-- change password section start -->
+    <section class="change-password-section">
+        <div class="custom-container">
+            <form class="form-style-9">
+                <div class="form-box">
+                    <label for="email" class="form-label fw-semibold">Password :</label>
+                    <input type="password" class="form-control mb-3" placeholder="Current Password" id="pass1">
+                    <input type="password" class="form-control mb-3" placeholder="New Password" id="pass2">
+                    <input type="password" class="form-control mb-3" placeholder="Re-type new Password" id="pass3">
+                    <a href="profile.html" class="blog-btn dark-btn d-block text-center">Submit</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- change password section end -->
+
+    <!-- Change email address offcanvas start -->
+    <div class="offcanvas apply-coupon-offcanvas theme-bottom-offcanvas offcanvas-bottom" tabindex="-1"
+        id="changeEmail">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Change your email</h5>
+        </div>
+        <div class="offcanvas-body">
+            <form class="form-style-9">
+                <div class="form-box">
+                    <label for="email1" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" value="testing@gmail.com"
+                        placeholder="Your email address is testing@gmail.com" id="email1">
+                </div>
+
+                <div class="form-box">
+                    <label for="pass" class="form-label">Password</label>
+                    <input type="password" class="form-control" placeholder="Your Password" id="pass">
+                </div>
+            </form>
+            <p class="content-modal-name">For your security, if you change your email address your saved credit card
+                information will be deleted.</p>
+            <button class="btn btn-theme text-white" data-bs-dismiss="modal">Save</button>
+        </div>
+    </div>
+    <!-- Change email address offcanvas end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Setting js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

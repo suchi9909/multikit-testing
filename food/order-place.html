@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/2.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Map link -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/leaflet.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="lato-body food-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/favicon/2.svg" class="img-fluid loader" alt="">
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- map section start -->
+    <section class="map-section map-section-2">
+        <div id="map"></div>
+    </section>
+    <!-- map section end -->
+
+    <!-- order place section start -->
+    <section class="order-place-section">
+        <div class="custom-container">
+            <div class="arriving-order-box">
+                <div class="order-image">
+                    <img src="../assets/images/food/icon/scooter.gif" class="img-fluid" alt="">
+                </div>
+                <div class="order-content">
+                    <h5>Arriving in <span>15 mins</span></h5>
+                    <h6>Your order is on the way, track order on the map.</h6>
+                </div>
+            </div>
+            <div class="order-place-box">
+                <div class="order-drive-box">
+                    <div class="driver-image">
+                        <img src="../assets/images/cab-booking/driver.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="driver-name">
+                        <div class="name-box">
+                            <h5>Michael Cameron</h5>
+                            <h6>Temp.: 98.6 F</h6>
+                        </div>
+                        <ul class="driver-contact">
+                            <li>
+                                <a href="mailto:multikit@example.com">
+                                    <i class="ri-mail-line"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:(+12) 123 456 7890">
+                                    <i class="ri-phone-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="address-list-box">
+                <ul class="address-list">
+                    <li>
+                        <div class="address-box">
+                            <div class="address-icon">
+                                <i class="ri-store-line"></i>
+                            </div>
+                            <div class="address-name">
+                                <h5>Restaurant Address</h5>
+                                <h6>793 Golden Star St. Kernersville, NC 27284</h6>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="address-box">
+                            <div class="address-icon">
+                                <i class="ri-home-5-line"></i>
+                            </div>
+                            <div class="address-name">
+                                <h5>Home Address</h5>
+                                <h6>8949 Ashley Court, Westport, CT 06880</h6>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- order place section end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-light">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Map js -->
+    <script src="../assets/js/leaflet.js"></script>
+    <script src="../assets/js/custom-map.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

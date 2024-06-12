@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="../assets/images/favicon/3.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/vendors/swiper/swiper-bundle.min.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="grocery-color public-san-body">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/favicon/3.svg" class="img-fluid loader" alt="">
+        <div class="loader-section grocery-color section-left"></div>
+        <div class="loader-section grocery-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- header Start -->
+    <header class="header-style-6">
+        <div class="left-header header-title">
+            <a href="index.html">
+                <i class="ri-arrow-left-s-line"></i>
+            </a>
+            <h4>Help</h4>
+        </div>
+    </header>
+    <!-- header End -->
+
+    <!-- Mobile Section Start -->
+    <div class="mobile-style-6">
+        <ul>
+            <li>
+                <a href="index.html" class="mobile-box">
+                    <i class="ri-home-line"></i>
+                    <h6>Home</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="category.html" class="mobile-box">
+                    <i class="ri-file-copy-line"></i>
+                    <h6>Category</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="search.html" class="mobile-box">
+                    <i class="ri-search-line"></i>
+                    <h6>Search</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="cart.html" class="mobile-box">
+                    <i class="ri-shopping-cart-line"></i>
+                    <h6>Cart</h6>
+                </a>
+            </li>
+
+            <li>
+                <a href="account.html" class="mobile-box">
+                    <i class="ri-user-3-line"></i>
+                    <h6>Profile</h6>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Mobile Section End -->
+
+    <!-- Faq Section Start -->
+    <section>
+        <div class="custom-container">
+            <ul class="nav nav-pills tab-style-5" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-payment-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-payment" type="button" role="tab">Payment</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Coupons-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-Coupons" type="button" role="tab">Coupons</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-reservation-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-reservation" type="button" role="tab">Reservation</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-return-tab" data-bs-toggle="pill" data-bs-target="#pills-return"
+                        type="button" role="tab">Return Order</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-payment" role="tabpanel">
+                    <div class="accordion help-accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne">Do
+                                    you also have a physical store?</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">Where can i subscribe to newsletter?</button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour">What
+                                    are your opening hours?</button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive">General Terms & Conditions (GTC)</button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSix">Can I reserve a magazine?</button>
+                            </h2>
+                            <div id="collapseSix" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Coupons" role="tabpanel">
+                    <div class="accordion help-accordion" id="accordionSeven">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSeven">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeven">Do you also have a physical store?</button>
+                            </h2>
+                            <div id="collapseSeven" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionSeven">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight">Where can i subscribe to newsletter?</button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingNine">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTen">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven">General Terms & Conditions (GTC)</button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingtwo1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo">Can I reserve a magazine?</button>
+                            </h2>
+                            <div id="collapseTwow" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-reservation" role="tabpanel">
+                    <div class="accordion help-accordion" id="accordionExample12">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading13">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse13">Do you also have a physical store?</button>
+                            </h2>
+                            <div id="collapse13" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample12">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading14">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse14">Where can i subscribe to newsletter?</button>
+                            </h2>
+                            <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading15">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse15">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading16">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse16">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading17">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse17">General Terms & Conditions (GTC)</button>
+                            </h2>
+                            <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading18">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse18">Can I reserve a magazine?</button>
+                            </h2>
+                            <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-return" role="tabpanel">
+                    <div class="accordion help-accordion" id="accordionExample5">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading19">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse19">Do you also have a physical store?</button>
+                            </h2>
+                            <div id="collapse19" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample5">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading20">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse20">Where can i subscribe to newsletter?</button>
+                            </h2>
+                            <div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading21">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse21">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading22">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse22">What are your opening hours?</button>
+                            </h2>
+                            <div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading23">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse23">General Terms & Conditions (GTC)</button>
+                            </h2>
+                            <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading24">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse24">Can I reserve a magazine?</button>
+                            </h2>
+                            <div id="collapse24" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>No, we don't have a physical store location at the moment. We accept only orders
+                                        through
+                                        our online shop and we're shipping all orders. Please visit our shipping section
+                                        for
+                                        more details</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Faq Section End -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- space box start -->
+    <div class="grocery-bottom-spacing"></div>
+    <!-- space box end -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

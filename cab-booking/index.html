@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <meta name="author" content="multikit">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/6.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+    <title>Multikit - Multi-purpose Html Template </title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Google font css link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Map link -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/leaflet.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="roboto-body cab-booking-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/favicon/6.svg" class="img-fluid loader" alt="">
+        <div class="loader-section cab-color section-left"></div>
+        <div class="loader-section cab-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Start -->
+    <header class="cab-header-2">
+        <div class="custom-container">
+            <div class="header-box">
+                <button class="header-left btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideMenu">
+                    <i class="ri-menu-line"></i>
+                </button>
+                <div class="header-search-box">
+                    <form>
+                        <input type="email" class="form-control" placeholder="Search Location">
+                        <i class="ri-search-line"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- map section start -->
+    <section class="map-section">
+        <div id="map"></div>
+    </section>
+    <!-- map section end -->
+
+    <!-- Booking section start -->
+    <section class="booking-section">
+        <div class="custom-container">
+            <div class="booking-box">
+                <div class="booking-title">
+                    <h3>Where would you want to Go?</h3>
+                </div>
+
+                <div class="address-location">
+                    <form class="form-style-3">
+                        <img src="../assets/svg/location-arrow.svg" class="location-arrow" alt="">
+                        <div class="cab-form-control location-input">
+                            <input type="text" class="form-control" placeholder="From where?">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="dots"></span>
+                        </div>
+
+                        <div class="cab-form-control location-input">
+                            <input type="email" class="form-control" id="email" placeholder="Where would you go?">
+                            <i class="ri-map-pin-line"></i>
+                            <span class="dots dots-2"></span>
+                        </div>
+                    </form>
+                    <div class="time-passenger">
+                        <div class="time-passenger-box">
+                            <i class="ri-time-line"></i>
+                            <h5>Current Time</h5>
+                        </div>
+
+                        <div class="time-passenger-box">
+                            <i class="ri-group-line"></i>
+                            <h5>passenger</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="choose-ride.html" class="find-button btn">Find Cab</a>
+            </div>
+        </div>
+    </section>
+    <!-- Booking section end -->
+
+    <!-- Sidebar Menu offcanvas start -->
+    <div class="offcanvas offcanvas-start theme-offcanvas cab-sidebar-offcanvas" tabindex="-1" id="sideMenu">
+        <div class="offcanvas-header">
+            <div class="profile-box">
+                <a href="account.html" class="profile-image">
+                    <img src="../assets/images/cab-booking/profile.jpg" class="img-fluid" alt="">
+                </a>
+                <a href="account.html" class="profile-name">
+                    <h4>Joseph K. Feliz</h4>
+                    <h5>Edit Profile</h5>
+                </a>
+            </div>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="profile-menu-list">
+                <li class="active">
+                    <a href="index.html">
+                        <div class="menu-icon">
+                            <i class="ri-home-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Home</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="your-ride.html">
+                        <div class="menu-icon">
+                            <i class="ri-time-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Your Rides</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="wallet.html">
+                        <div class="menu-icon">
+                            <i class="ri-wallet-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Wallet</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="notification.html">
+                        <div class="menu-icon">
+                            <i class="ri-notification-2-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Notification</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="refer-earn.html">
+                        <div class="menu-icon">
+                            <i class="ri-group-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Refer & Earn</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="support.html">
+                        <div class="menu-icon">
+                            <i class="ri-phone-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Support</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="account.html">
+                        <div class="menu-icon">
+                            <i class="ri-account-box-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Account</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="setting.html">
+                        <div class="menu-icon">
+                            <i class="ri-settings-3-line"></i>
+                        </div>
+                        <div class="menu-name">
+                            <h4>Settings</h4>
+                            <i class="ri-arrow-right-line"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Sidebar Menu offcanvas end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon text-white">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Map js -->
+    <script src="../assets/js/leaflet.js"></script>
+    <script src="../assets/js/custom-map.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Setting js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>

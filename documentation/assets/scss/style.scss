@@ -1,0 +1,28 @@
+/// Theme ///
+@import "theme/variables";
+
+:root {
+    --theme-default: #122635;
+    --theme-secondary: #f73164;
+}
+
+/// Components ///
+@import "components/buttons";
+@import "components/alert";
+@import "components/card";
+@import "components/color";
+@import "components/dropdown";
+@import "components/popover";
+@import "components/tab";
+@import "components/radio";
+@import "components/badge";
+@import "components/switch";
+@import "components/datatable";
+@import "components/form-wizard";
+@import "components/table";
+@import "components/according";
+
+/// Theme ///
+@import "theme/document";
+@import "theme/responsive";
+@import "theme/dark";

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="multikit">
+    <meta name="keywords" content="multikit">
+    <title>Multikit - Multi-purpose Html Template</title>
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#ff8d2f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="multikit">
+    <meta name="msapplication-TileImage" content="../assets/images/favicon/1.svg">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon/8.svg">
+    <link rel="shortcut icon" href="../" type="image/x-icon">
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Loader Normalize css -->
+    <link rel="stylesheet" href="../assets/css/normalize.min.css">
+
+    <!-- Bootstrap css -->
+    <link id="rtl-link" rel="stylesheet" type="text/css" href="../assets/css/vendors/bootstrap.css">
+
+    <!-- Remix Icon css -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/remixicon.css">
+
+    <!-- Style css -->
+    <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
+</head>
+
+<body class="rubik-body theme-bg-color chatting-color">
+    <!-- Loader Box Start -->
+    <div class="min-loader-wrapper">
+        <img src="../assets/images/loader/chatting.gif" class="img-fluid loader" alt="">
+        <div class="loader-section chatting-color section-left"></div>
+        <div class="loader-section chatting-color section-right"></div>
+    </div>
+    <!-- Loader Box End -->
+
+    <!-- Header Section Start -->
+    <header class="chatting-header">
+        <div class="custom-container">
+            <div class="header-box">
+                <a href="setting.html" class="arrow-box title-color">
+                    <i class="ri-arrow-left-s-line"></i>
+                </a>
+                <a href="index.html" class="left-header">
+                    <img src="../assets/images/logo/2.svg" class="img-fluid w-100" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- language Section Start -->
+    <section class="chatting-section pb-3 language-section">
+        <div class="custom-container">
+            <div class="title">
+                <h4>Language Select</h4>
+            </div>
+
+            <div class="language-setting-list">
+                <ul class="setting-list selectionUI bg-transparent">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4 class="active">English</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li class="active">
+                        <a href="javascript:void(0)">
+                            <h4>Spanish</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>French</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Mandarin</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Hindi</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Spanish</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Bengali</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Arabic</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Indonesian</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <h4>Portuguese</h4>
+                            <i class="ri-check-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- language Section End -->
+
+    <!-- theme modal start -->
+    <div class="modal fade theme-color-modal theme-modal" id="back-up">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Back up to Google Drive</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="delete-list">
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="naver" checked>
+                                <label class="form-check-label" for="naver">Never</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box">
+                                <input class="form-check-input" type="radio" name="theme" id="only">
+                                <label class="form-check-label" for="only">Only when i tap "Back up"</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="daily">
+                                <label class="form-check-label" for="daily">Daily</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="week">
+                                <label class="form-check-label" for="week">Weekly</label>
+                            </div>
+                        </li>
+                        <li data-bs-dismiss="modal">
+                            <div class="form-check chatting-radio-box mt-1">
+                                <input class="form-check-input" type="radio" name="theme" id="month">
+                                <label class="form-check-label" for="month">Monthly</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- theme modal end -->
+
+    <!-- Archive modal start -->
+    <div class="modal fade theme-modal" id="archive">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Archive Box</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All your messages will be here.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Okay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Archive modal end -->
+
+    <!-- clear modal start -->
+    <div class="modal fade theme-modal" id="clear">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Clear all chats</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Are you sure to clear all your chats</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">No</button>
+                    <button class="btn btn-theme btn-light" data-bs-target="#confirm"
+                        data-bs-toggle="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade theme-modal delete-modal-2" id="confirm">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Done</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All messages are deleted.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clear modal end -->
+
+    <!-- clear modal start -->
+    <div class="modal fade theme-modal" id="delete">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Clear all chats</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Do you want to clear all chats?</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">No</button>
+                    <button class="btn btn-theme btn-light" data-bs-target="#confirm1"
+                        data-bs-toggle="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade theme-modal delete-modal-2" id="confirm1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Done</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <i class="ri-close-line"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h5>All messages are deleted.</h5>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-theme btn-light" data-bs-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- clear modal end -->
+
+    <!-- Theme Option Setting Box Start -->
+    <div class="theme-setting-box">
+        <div class="theme-box">
+            <button class="theme-icon">
+                <i class="ri-menu-line"></i>
+            </button>
+            <ul class="theme-option">
+                <li>
+                    <button class="theme-setting-button" id="rtl-btn">
+                        <i class="ri-text-direction-r"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="theme-setting-button" id="dark-btn">
+                        <i class="ri-sun-line"></i>
+                    </button>
+                </li>
+                <li>
+                    <button onclick="location.href = '../landing/index.html';" class="theme-setting-button">
+                        <i class="ri-home-3-line"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Theme Option Setting Box End -->
+
+    <!-- Bootstrap js-->
+    <script src="../assets/js/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Loader js -->
+    <script src="../assets/js/loader.js"></script>
+
+    <!-- Active Js -->
+    <script src="../assets/js/active-selection.js"></script>
+
+    <!-- Theme js-->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- Theme Settings js-->
+    <script src="../assets/js/theme-setting.js"></script>
+</body>
+
+</html>
