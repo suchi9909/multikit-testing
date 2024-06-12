@@ -13,21 +13,21 @@ darkSwitch?.addEventListener("change", (e) => {
   console.log(checkbox.checked);
   if (checkbox.checked) {
     htmlDom.setAttribute("class", "dark");
-    darkLink.href = "../assets/css/dark.css";
-    localStorage.setItem("darkcss", "../assets/css/dark.css");
+    darkLink.href = "assets/css/dark.css";
+    localStorage.setItem("darkcss", "assets/css/dark.css");
     localStorage.setItem("class", "dark");
   }
 
   if (!checkbox.checked) {
     htmlDom.setAttribute("class", "light");
-    darkLink.href = "../assets/css/style.css";
-    localStorage.setItem("darkcss", "../assets/css/style.css");
+    darkLink.href = "assets/css/style.css";
+    localStorage.setItem("darkcss", "assets/css/style.css");
     localStorage.setItem("class", "light");
   }
 });
 // Dark
 htmlDom.setAttribute("class", localStorage.getItem("class")?localStorage.getItem("class") : "light");
-darkLink.href = localStorage.getItem("darkcss")?localStorage.getItem("darkcss") : "../assets/css/style.css";
+darkLink.href = localStorage.getItem("darkcss")?localStorage.getItem("darkcss") : "assets/css/style.css";
 
 /*====================
   RTL js
@@ -44,18 +44,18 @@ dirSwitch?.addEventListener("change", (e) => {
   console.log(checkbox.checked);
   if (checkbox.checked) {
     htmlDom1.setAttribute("dir", "rtl");
-    rtlLink.href = "../assets/css/vendors/bootstrap.rtl.css";
-    localStorage.setItem("rtlcss", "../assets/css/vendors/bootstrap.rtl.css");
+    rtlLink.href = "assets/css/vendors/bootstrap.rtl.css";
+    localStorage.setItem("rtlcss", "assets/css/vendors/bootstrap.rtl.css");
     localStorage.setItem("dir", "rtl");
   }
 
   if (!checkbox.checked) {
     htmlDom1.setAttribute("dir", "ltr");
-    rtlLink.href = "../assets/css/vendors/bootstrap.css";
-    localStorage.setItem("rtlcss", "../assets/css/vendors/bootstrap.css");
+    rtlLink.href = "assets/css/vendors/bootstrap.css";
+    localStorage.setItem("rtlcss", "assets/css/vendors/bootstrap.css");
     localStorage.setItem("dir", "ltr");
   }
 });
 // Rtl
 htmlDom1.setAttribute("dir", localStorage.getItem("dir") ? localStorage.getItem("dir") : "ltr");
-rtlLink.href = localStorage.getItem("rtlcss") ? localStorage.getItem("rtlcss") : "../assets/css/vendors/bootstrap.css";
+rtlLink.href = localStorage.getItem("rtlcss") ? localStorage.getItem("rtlcss") : "assets/css/vendors/bootstrap.css";

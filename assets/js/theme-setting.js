@@ -16,11 +16,11 @@ themeBtnParent?.addEventListener("click", function (e) {
   if (clicked === "rtl-btn") {
     rtlBtn.id = "ltr-btn";
     html.setAttribute("dir", "rtl");
-    rtlLink.href = "../assets/css/vendors/bootstrap.rtl.css";
+    rtlLink.href = "assets/css/vendors/bootstrap.rtl.css";
     rtlBtn.classList.add("rtlBtnEl");
     localStorage.setItem(
       "rtlcss",
-      "../assets/css/vendors/bootstrap.rtl.css"
+      "assets/css/vendors/bootstrap.rtl.css"
     );
     localStorage.setItem("dir", "rtl");
     localStorage.setItem("rtlBtnId", "ltr-btn");
@@ -28,25 +28,25 @@ themeBtnParent?.addEventListener("click", function (e) {
   if (clicked === "ltr-btn") {
     rtlBtn.id = "rtl-btn";
     html.setAttribute("dir", "");
-    rtlLink.href = "../assets/css/vendors/bootstrap.css";
-    localStorage.setItem("rtlcss", "../assets/css/vendors/bootstrap.css");
+    rtlLink.href = "assets/css/vendors/bootstrap.css";
+    localStorage.setItem("rtlcss", "assets/css/vendors/bootstrap.css");
     localStorage.setItem("dir", "ltr");
     localStorage.setItem("rtlBtnId", "rtl-btn");
   }
   if (clicked === "dark-btn") {
     darkBtn.id = "light-btn";
     html.className = "dark";
-    darkLink.href = "../assets/css/dark.css";
+    darkLink.href = "assets/css/dark.css";
     localStorage.setItem("body", "dark");
-    localStorage.setItem("layoutcss", "../assets/css/dark.css");
+    localStorage.setItem("layoutcss", "assets/css/dark.css");
     localStorage.setItem("darkId", "light-btn");
   }
   if (clicked === "light-btn") {
     darkBtn.id = "dark-btn";
-    darkLink.href = "../assets/css/style.css";
+    darkLink.href = "assets/css/style.css";
     html.className = "light";
     localStorage.setItem("body", "light");
-    localStorage.setItem("layoutcss", "../assets/css/style.css");
+    localStorage.setItem("layoutcss", "assets/css/style.css");
     localStorage.setItem("darkId", "dark-btn");
   }
 });
@@ -54,7 +54,7 @@ themeBtnParent?.addEventListener("click", function (e) {
 // Rtl
 rtlBtn.id = localStorage.getItem("rtlBtnId")?localStorage.getItem("rtlBtnId"): "rtl-btn";
 html.setAttribute("dir", localStorage.getItem("dir"));
-rtlLink.href = localStorage.getItem("rtlcss")?localStorage.getItem("rtlcss"): "../assets/css/vendors/bootstrap.css";
+rtlLink.href = localStorage.getItem("rtlcss")?localStorage.getItem("rtlcss"): "assets/css/vendors/bootstrap.css";
 
 // Dark
 darkBtn.id = localStorage.getItem("darkId")
@@ -65,5 +65,5 @@ html.className = localStorage.getItem("body");
 if (darkLink) {
   darkLink.href = localStorage.getItem("layoutcss")
     ? localStorage.getItem("layoutcss")
-    : "../assets/css/style.css";
+    : "assets/css/style.css";
 }

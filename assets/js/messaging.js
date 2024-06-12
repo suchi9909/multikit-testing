@@ -14,8 +14,8 @@ const BOT_MSGS = [
 ];
 
 // Icons made by Freepik from www.flaticon.com
-const BOT_IMG = "../assets/images/chatting/profile/1.png";
-const PERSON_IMG = "../assets/images/chatting/profile/2.png";
+const BOT_IMG = "assets/images/chatting/profile/1.png";
+const PERSON_IMG = "assets/images/chatting/profile/2.png";
 const BOT_NAME = "Jack";
 const PERSON_NAME = "Michael";
 
