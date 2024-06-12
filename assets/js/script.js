@@ -8,3 +8,13 @@ elements.forEach(i => {
     elements.forEach(j => j.classList.toggle('show'));
   });
 });
+
+
+$(window).on('load', function () {
+  'use strict';
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register('sw.js');
+  }
+});
+
